@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "Bash(chcp 65001)",
+      "Bash(PYTHONIOENCODING=utf-8 python:*)",
+      "Bash(git -C \"C:\\\\Users\\\\TomaszDąbrowski\\\\.claude-worktrees\\\\test\\\\keen-ardinghelli\" status)",
+      "Bash(git -C \"C:\\\\Users\\\\TomaszDąbrowski\\\\.claude-worktrees\\\\test\\\\keen-ardinghelli\" log --oneline -3)",
+      "Bash(git -C \"C:\\\\Users\\\\TomaszDąbrowski\\\\.claude-worktrees\\\\test\\\\keen-ardinghelli\" branch -vv)",
+      "Bash(git -C \"C:\\\\Users\\\\TomaszDąbrowski\\\\.claude-worktrees\\\\test\\\\keen-ardinghelli\" push -u origin keen-ardinghelli)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)"
+    ]
+  }
+}
